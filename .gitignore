@@ -32,6 +32,7 @@ fig*.c
 
 #ignore generated files (started with Chapter 11)
 *.txt
+*.log
 *.dat 
 *.o
 
