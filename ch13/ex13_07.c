@@ -147,10 +147,10 @@ int partition(int *array, int fromIndex, int toIndex, int direction) {
 	return index;
 }
 static int lessThan(int a, int b){
-	return a <= b;
+	return a < b;
 }
 static int greaterThan(int a, int b) {
-	return a >= b;
+	return a > b;
 }
 int inArray(int *array, int number) {
 	int result = 0;
